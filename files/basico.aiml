@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>HOLA</pattern>
+	    <template>
+	        <random>
+	            <li>Bienvenid@, ¿Quieres saber cuáles son las entradas o vamos a la sopa?</li>
+	            <li>Buen día, ¿Toma la entrada o quisiera empezar con sopa?</li>
+	            <li>¡Sea bienvenid@! ¿Le muestro las entradas o las sopas?</li>
+	            <li>Muy buen día ¿Quisiera las entradas o de una vez las sopas?</li>
+	        </random>
+	    </template>
+	    
+	</category>
+	<category>
+	    <pattern>ENTRADAS</pattern>
+	    <template>
+	        <random>
+	            <li>Tenemos palitos de apio, ensalada o fruta picada ¿Cual te interesa?</li>
+	            <li>Tenemos las siguientes entradas: apio, ensalada y fruta picada ¿Desea alguno?</li>
+	            <li>Nuestras entradas son: apio, ensalada y fruta picada ¿Alguno le interesa?</li>
+	        </random>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>SOPA</pattern>
+	    <template>
+	        <random>
+	            <li>¿Quieres la sopa del día o consomé?</li>
+	            <li>¿Tienes antojo de la sopa del día o del consomé?</li>
+	            <li>Tenemos la sopa del día y consomé ¿Interesad@ en alguno?</li>
+	        </random>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>SOPA DEL DÍA</pattern>
+	    <template>
+	        <random>
+	            <li>¿De acuerdo, desea acompañarla con pan o tortillas?</li>
+	            <li>Maravilloso, ¿Como acompañamiento quisiera pan o tortillas?</li>
+	        </random>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>CONSOMÉ</pattern>
+	    <template>
+	        <random>
+	            <li>¿De acuerdo, desea acompañar su consomé con pan o tortillas?</li>
+	            <li>Maravilloso, ¿Como acompañamiento quisiera pan o tortillas?</li>
+	        </random>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* ENTRADA *</pattern>
+	    <template>
+	        <srai>ENTRADAS</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* ENTRADAS *</pattern>
+	    <template>
+	        <srai>ENTRADAS</srai>
+	    </template>
+	</category>
+	
+    <category>
+	    <pattern>* SOPA *</pattern>
+	    <template>
+	        <srai>SOPA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* SOPAS *</pattern>
+	    <template>
+	        <srai>SOPA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* SOPA DEL DÍA *</pattern>
+	    <template>
+	        <srai>SOPA DEL DÍA</srai>
+	    </template>
+	</category>
+</aiml>

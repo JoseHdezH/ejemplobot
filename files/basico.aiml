@@ -11,8 +11,8 @@
 	            <li>Muy buen día ¿Quisiera las entradas o de una vez las sopas?</li>
 	        </random>
 	    </template>
-	    
 	</category>
+	
 	<category>
 	    <pattern>ENTRADAS</pattern>
 	    <template>
@@ -20,6 +20,36 @@
 	            <li>Tenemos palitos de apio, ensalada o fruta picada ¿Cual te interesa?</li>
 	            <li>Tenemos las siguientes entradas: apio, ensalada y fruta picada ¿Desea alguno?</li>
 	            <li>Nuestras entradas son: apio, ensalada y fruta picada ¿Alguno le interesa?</li>
+	        </random>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>APIO</pattern>
+	    <template>
+	        <random>
+	            <li>¡Claro! En un momento le traigo sus palitos de apio. Gracias, si necesita algo más diga "OYE".</li>
+	            <li>Perfecto, enseguida le consigo sus palitos de apio. Gracias, si necesita algo más diga "OYE".</li>
+	        </random>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>FRUTA PICADA</pattern>
+	    <template>
+	        <random>
+	            <li>¡Claro! En un momento le traigo su fruta picada. Gracias, si necesita algo más diga "OYE".</li>
+	            <li>Perfecto, enseguida le consigo su fruta picada. Gracias, si necesita algo más diga "OYE".</li>
+	        </random>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>ENSALADA</pattern>
+	    <template>
+	        <random>
+	            <li>¡Claro! En un momento le traigo su ensalada. Gracias, si necesita algo más diga "OYE".</li>
+	            <li>Perfecto, enseguida le consigo su ensalda. Gracias, si necesita algo más diga "OYE".</li>
 	        </random>
 	    </template>
 	</category>
@@ -50,13 +80,51 @@
 	    <template>
 	        <random>
 	            <li>¿De acuerdo, desea acompañar su consomé con pan o tortillas?</li>
-	            <li>Maravilloso, ¿Como acompañamiento quisiera pan o tortillas?</li>
+	            <li>¡Genial!, ¿Como acompañamiento quisiera pan o tortillas?</li>
 	        </random>
 	    </template>
 	</category>
 	
 	<category>
+	    <pattern>PAN</pattern>
+	    <template>¡De acuerdo, enseguida le traigo su sopa y su pan! Gracias, si necesita algo más diga "OYE".</template>
+	</category>
+	
+	<category>
+	    <pattern>TORTILLAS</pattern>
+	    <template>¡De acuerdo, ensguida le traigo su sopa y sus tortillas! Gracias, si necesita algo más diga "OYE".</template>
+	</category>
+	
+	<category>
 	    <pattern>* ENTRADA *</pattern>
+	    <template>
+	        <srai>ENTRADAS</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* ENTRADA</pattern>
+	    <template>
+	        <srai>ENTRADAS</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>ENTRADA *</pattern>
+	    <template>
+	        <srai>ENTRADAS</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* ENTRADAS</pattern>
+	    <template>
+	        <srai>ENTRADAS</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>ENTRADAS *</pattern>
 	    <template>
 	        <srai>ENTRADAS</srai>
 	    </template>
@@ -69,8 +137,36 @@
 	    </template>
 	</category>
 	
+	<category>
+	    <pattern>SOPA *</pattern>
+	    <template>
+	        <srai>SOPA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* SOPA</pattern>
+	    <template>
+	        <srai>SOPA</srai>
+	    </template>
+	</category>
+	
     <category>
 	    <pattern>* SOPA *</pattern>
+	    <template>
+	        <srai>SOPA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>SOPAS *</pattern>
+	    <template>
+	        <srai>SOPA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* SOPAS</pattern>
 	    <template>
 	        <srai>SOPA</srai>
 	    </template>
@@ -84,9 +180,234 @@
 	</category>
 	
 	<category>
+	    <pattern>SOPA DEL DÍA *</pattern>
+	    <template>
+	        <srai>SOPA DEL DÍA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* SOPA DEL DÍA</pattern>
+	    <template>
+	        <srai>SOPA DEL DÍA</srai>
+	    </template>
+	</category>
+	
+	<category>
 	    <pattern>* SOPA DEL DÍA *</pattern>
 	    <template>
 	        <srai>SOPA DEL DÍA</srai>
 	    </template>
+	</category>
+	
+	<category>
+	    <pattern>CONSOMÉ *</pattern>
+	    <template>
+	        <srai>CONSOMÉ</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* CONSOMÉ</pattern>
+	    <template>
+	        <srai>CONSOMÉ</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* CONSOMÉ *</pattern>
+	    <template>
+	        <srai>CONSOMÉ</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>APIO *</pattern>
+	    <template>
+	        <srai>APIO</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* APIO</pattern>
+	    <template>
+	        <srai>APIO</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* APIO *</pattern>
+	    <template>
+	        <srai>APIO</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>FRUTA PICADA *</pattern>
+	    <template>
+	        <srai>FRUTA PICADA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* FRUTA PICADA</pattern>
+	    <template>
+	        <srai>FRUTA PICADA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* FRUTA PICADA *</pattern>
+	    <template>
+	        <srai>FRUTA PICADA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>ENSALADA *</pattern>
+	    <template>
+	        <srai>ENSALADA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* ENSALADA</pattern>
+	    <template>
+	        <srai>ENSALADA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* ENSALADA *</pattern>
+	    <template>
+	        <srai>ENSALADA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* HOLA *</pattern>
+	    <template>
+	        <srai>HOLA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>HOLA *</pattern>
+	    <template>
+	        <srai>HOLA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* HOLA</pattern>
+	    <template>
+	        <srai>HOLA</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* OYE *</pattern>
+	    <template>
+	        <srai>OYE</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* OYE</pattern>
+	    <template>
+	        <srai>OYE</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>OYE *</pattern>
+	    <template>
+	        <srai>OYE</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>POSTRE *</pattern>
+	    <template>
+	        <srai>POSTRE</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* POSTRE</pattern>
+	    <template>
+	        <srai>POSTRE</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* POSTRE *</pattern>
+	    <template>
+	        <srai>POSTRE</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* PAN *</pattern>
+	    <template>
+	        <srai>PAN</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* PAN</pattern>
+	    <template>
+	        <srai>PAN</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>PAN *</pattern>
+	    <template>
+	        <srai>PAN</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* TORTILLAS *</pattern>
+	    <template>
+	        <srai>TORTILLAS</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>* TORTILLAS</pattern>
+	    <template>
+	        <srai>TORTILLAS</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>TORTILLAS *</pattern>
+	    <template>
+	        <srai>TORTILLAS</srai>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>POSTRE</pattern>
+	    <template>¡Claro! De postre tenemos galletas, ¿Quiere le traiga?</template>
+	</category>
+	
+	<category>
+	    <pattern>SI</pattern>
+	    <that>¡Claro! De postre tenemos galletas, ¿Quiere le traiga?</that>
+	    <template>Enseguida le traigo sus galletas. Gracias, si necesita algo más diga "OYE".</template>
+	</category>
+	
+	<category>
+	    <pattern>NO</pattern>
+	    <that>¡Claro! De postre tenemos galletas, ¿Quiere le traiga?</that>
+	    <template>Entendido. Gracias, si necesita algo más diga "OYE".</template>
+	</category>
+	
+	<category>
+	    <pattern>OYE</pattern>
+	    <template>¡Hola! ¿Que desea? ¿Alguna de nuestras entradas o sopa?</template>
 	</category>
 </aiml>
